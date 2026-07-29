@@ -1,16 +1,172 @@
-# React + Vite
+# ✅ TaskFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive **Task Management Application** built with **React + Vite**.  
+TaskFlow helps users organize daily tasks efficiently with priority levels, categories, due dates, progress tracking, filtering, and searching.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ✨ Add new tasks
+- 📝 Edit and delete tasks
+- ✅ Mark tasks as completed
+- 📊 Real-time progress tracker
+- 🔍 Search tasks instantly
+- 🏷️ Filter by status
+  - All
+  - Pending
+  - Completed
+- 📂 Filter by category
+- 📅 Set due dates
+- ⚡ Sort tasks
+  - Newest
+  - Oldest
+  - Priority
+- 🌙 Beautiful Dark UI
+- 📱 Fully Responsive Design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+# 📸 Screenshots
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Home Page
+
+![Home](./screenshots/home.png)
+
+---
+
+## Progress & Filters
+
+![Progress](./screenshots/progress.png)
+
+---
+
+## Empty State
+
+![Empty State](./screenshots/empty.png)
+
+---
+
+# 🛠️ Tech Stack
+
+- React
+- Vite
+- JavaScript (ES6+)
+- CSS3
+- HTML5
+
+---
+
+# 📁 Project Structure
+
+```text
+TaskFlow/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/TaskFlow.git
+```
+
+Go inside the project
+
+```bash
+cd TaskFlow
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the project
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:5173
+```
+
+---
+
+# 📋 Future Improvements
+
+- 🔐 User Authentication
+- ☁️ Cloud Database
+- 📅 Calendar View
+- 🔔 Notifications
+- 🎯 Drag & Drop Tasks
+- 📈 Analytics Dashboard
+- 📱 PWA Support
+- 🌍 Multi-language Support
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create your feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push to the branch
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+# ⭐ Show Your Support
+
+If you like this project, don't forget to ⭐ star the repository!
+
+---
+
+## 👨‍💻 Author
+
+**Saurabh Pandey**
+
+- 💻 Computer Science Undergraduate
+- 🌐 Full Stack Developer
+- 📚 DSA Enthusiast
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
